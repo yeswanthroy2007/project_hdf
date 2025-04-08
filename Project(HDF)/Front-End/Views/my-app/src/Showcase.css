@@ -1,0 +1,64 @@
+/* Showcase.css */
+
+#showcase {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 20px;
+  }
+  
+  .showcase-content {
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .showcase-image {
+    flex: 1;
+    max-width: 45%;
+    text-align: right;
+  }
+  
+  .title-image {
+    max-width: 80%;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  .join-ride-button {
+    max-width: 40%;
+    margin-bottom: 20px;
+  }
+  
+  .partner-logos {
+    max-width: 60%;
+    text-align: left;
+  }
+  
+  .car-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    #showcase {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .showcase-content,
+    .showcase-image {
+      max-width: 100%;
+    }
+  
+    .showcase-image {
+      text-align: center;
+    }
+  }

@@ -1,0 +1,26 @@
+.header {
+    background: #ffffff;
+    color: #333;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header .logo img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .header .signup button {
+    background: #663399;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }

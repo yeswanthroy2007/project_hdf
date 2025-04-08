@@ -1,0 +1,50 @@
+.footer {
+    background-color: #333; /* Dark background */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%; /* Ensure full width */
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-text {
+    text-align: left;
+    font-size: 16px;
+  }
+  
+  .social-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-icon {
+    color: white;
+    font-size: 24px;
+    margin: 0 10px; /* Balanced spacing */
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .social-icon:hover {
+    color: #9370DB; /* Violet hover effect */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-text {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+  }
+  

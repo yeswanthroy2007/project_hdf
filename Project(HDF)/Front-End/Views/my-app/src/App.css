@@ -1,0 +1,11 @@
+/* App.css */
+
+.container {
+    width: 80%; 
+    margin: auto;
+    overflow: auto;
+  }             
+  
+  .content-wrapper {
+    clear: both; 
+  }

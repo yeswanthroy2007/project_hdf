@@ -1,0 +1,55 @@
+/* Import Bebas Neue font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.safe-rides {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+  position: relative;
+}
+
+.safe-rides h2 {
+  font-size: 4em;
+  font-weight: bold;
+  margin-bottom: 50px;
+  font-family: 'Bebas Neue', sans-serif; /* Apply Bebas Neue font */
+}
+
+.safe-rides-bottom {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+}
+
+.safe-rides-bottom p {
+  margin-bottom: 20px;
+}
+
+.safe-rides-bottom a {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 1.5em;
+  color: white;
+  vertical-align: middle;
+}
+
+.social-logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.safe-rides-bottom a.instagram {
+  color: #E1306C;
+}
+
+.safe-rides-bottom a.linkedin {
+  color: #0077B5;
+}
+
+.safe-rides-bottom a.medium {
+  color: white;
+}

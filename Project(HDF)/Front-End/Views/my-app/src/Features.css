@@ -1,0 +1,66 @@
+/* Features.css */
+
+.feature {
+  display: flex; /* Enable flexbox for horizontal layout */
+  align-items: flex-start; /* Align items to the top */
+  padding: 40px; /* More padding for better spacing */
+  background-color: white; /* Set background to match the site */
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 12px; /* Optional: rounded corners for nice look */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+}
+
+.feature-image {
+  flex: 1;
+  padding-right: 30px;
+}
+
+.feature-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.feature-content {
+  flex: 1;
+  text-align: left;
+}
+
+.feature-content h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.feature-content p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.underline {
+  width: 60px;
+  height: 4px;
+  background-color: violet;
+  margin-bottom: 20px;
+  border-radius: 2px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .feature {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .feature-image {
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .feature-content {
+    text-align: center;
+  }
+}

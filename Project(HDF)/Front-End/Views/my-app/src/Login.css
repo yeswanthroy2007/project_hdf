@@ -1,0 +1,152 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white; /* White background */
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+}
+
+/* Main container */
+.login-container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Left sidebar */
+.sidebar {
+    width: 80px;
+    /* background-color: #8574b5; */
+    height: 100%;
+}
+
+/* Main content area */
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+/* Login card */
+.login-card {
+    display: flex;
+    background-color: #8574b5;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 700px;
+    height: 300px;
+    overflow: auto;
+}
+
+/* Left side of card (login form) */
+.login-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 40px;
+}
+
+/* Microsoft login button */
+.microsoft-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 45px;
+    background-color: white;
+    border: 1px solid black; /* Border for visibility */
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0 20px;
+    cursor: pointer;
+    width: 300px;
+    color: black; /* Changed text color to black */
+}
+
+/* Microsoft logo */
+.ms-logo-placeholder {
+    width: 24px;
+    height: 24px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 23 23'%3E%3Cpath fill='%23f25022' d='M1 1h10v10H1z'/%3E%3Cpath fill='%2300a4ef' d='M1 12h10v10H1z'/%3E%3Cpath fill='%237fba00' d='M12 1h10v10H12z'/%3E%3Cpath fill='%23ffb900' d='M12 12h10v10H12z'/%3E%3C/svg%3E");
+    background-size: contain;
+}
+
+/* Login option text */
+.login-option {
+    color: rgba(255, 255, 255, 0.85);
+    text-align: center;
+    font-size: 14px;
+}
+
+.login-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Right side of card (brand box) */
+.brand-box {
+    background-color: #f7f5e6;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brand-content {
+    text-align: center;
+    padding: 20px;
+}
+
+.brand-logo {
+    margin-bottom: 20px;
+}
+
+/* Car icon */
+.car-icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.brand-name {
+    color: #8574b5;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+.brand-tagline {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: #333;
+}
+
+/* Go back button */
+.action-buttons {
+    margin-top: 20px;
+}
+
+.go-back-btn {
+    background-color: black;
+    color: white;
+    border: 1px solid #333;
+    border-radius: 20px;
+    padding: 10px 25px;
+    font-size: 14px;
+    cursor: pointer;
+}
